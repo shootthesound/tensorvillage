@@ -115,9 +115,11 @@ entirely.
   (identical file discarded, same-named different file gets a ` (2)` suffix), and anything
   that isn't a model is left alone. Until a save folder is set there is no `Save` folder on
   the drive at all: a drop zone that can't file anything is worse than none.
-- **Trash folder** — where Dedupe moves duplicate copies. Nothing is ever deleted; the
-  space comes back only when you empty this folder yourself, which is what makes every
-  removal reversible until you're sure. Reachable in one click from the Dedupe page, the
+- **Trash folder** — where Dedupe moves duplicate copies, and where a model goes when
+  you delete it from the drive in Explorer (it comes off every view at once, since they
+  were all the same file). Nothing is ever deleted; the space comes back only when you
+  empty this folder yourself, which is what makes every removal reversible until you're
+  sure. Reachable in one click from the Dedupe page, the
   tray menu, or Settings.
 
 Files already on the same disk as the folder move instantly; ones from another disk are
